@@ -23,7 +23,7 @@ function App() {
     }>
       Change time
     </button>
-    <h3> The room temperature is {temp}&#8451;</h3>
+    <h3> The room temperature is {temp} &#8451;</h3>
     <br />
     <button onClick = {
       ()=> setTemp(temp + 1)
