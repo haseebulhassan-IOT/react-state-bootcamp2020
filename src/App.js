@@ -21,7 +21,7 @@ function App() {
     <button onClick = {
       () => setMorning(!isMorning)
     }>
-      Change Day
+      Change time
     </button>
     <h3> The room temperature is {temp} °C</h3>
     <br />
