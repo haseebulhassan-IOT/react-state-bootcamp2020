@@ -30,10 +30,10 @@ jobs:
         # Yarn command
           cmd: install
     - name: Build React App
-      uses: yarn build
+      run: yarn build
     - name: Installing Surge
-      uses: npm install -g surge
+      run: npm install -g surge
     - name: Deploy on Surge
-      uses: surge ./build http://bootcamp-react-state-project.surge.sh/ --token{{secrets.SURGE_TOKEN}}  
+      run: surge ./build http://bootcamp-react-state-project.surge.sh/ --token{{secrets.SURGE_TOKEN}}  
 
 
