@@ -23,7 +23,7 @@ function App() {
     }>
       Change Day
     </button>
-    <h3> The room temperature is {temp}°C</h3>
+    <h3> The room temperature is {temp} °C</h3>
     <br />
     <button onClick = {
       ()=> setTemp(temp + 1)
